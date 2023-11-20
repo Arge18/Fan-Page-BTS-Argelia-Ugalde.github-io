@@ -1,0 +1,79 @@
+/*comentarios*/
+
+/*selector de tipo etiqueta HTML*/
+*{
+     font-family: 'Handlee', cursive;
+   text-align: center;
+   text-align: center;
+}
+body{
+    background-color: rgb(228, 93, 255);
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    background-color:rgb(251, 255, 18);
+    width: 400px;
+    padding: 15px;/*Espacio interno*/
+    border: 4px dashed rgb(58, 7, 58);/*Borde o tope*/
+    margin: 20px;/*Espacio externo*/
+}
+
+h3{
+    color: rgb(156, 82, 224);
+}
+
+p{
+    font-weight:lighter; /*Negritas*/
+    text-align: justify;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+}
+
+ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*SELECTORES DE TIPO CLASE*/
+.titulo{
+    text-align: center;
+    margin: auto;
+}
+
+.tarjeta{
+    background-color: rgb(255, 251, 5);
+    border: 3px solid rgb(243, 5, 243);
+    margin: 30px;
+}
+
+/*SELECTOR DE TIPO ID identificador 1*/
+#titulo_historia{font-family: 'Indie Flower', cursive;
+    color: rgb(130, 5, 247);
+    
+}
+#titulo_programas{font-family: 'Indie Flower', cursive;
+    color: rgb(238, 14, 81);
+}
+#titulo_discografia{font-family: 'Indie Flower', cursive;
+    color: rgb(9, 99, 9);
+}
+#titulo_fav{font-family: 'Indie Flower', cursive;
+    color: rgb(248, 85, 10);
+}
+#titulo_suscripcion{font-family: 'Indie Flower', cursive;
+    color: rgb(202, 16, 16);
+}
+#imagen1{
+    width: 60%;/*Unidades relativas*/
+    height: 60%;
+    border-radius: 40%;/*Bordes redondeados*/
+}
+#imagen2{
+    margin: 15px;
+    width: 500px;/*unidades estaticas*/
+    height: 300px;
+}
